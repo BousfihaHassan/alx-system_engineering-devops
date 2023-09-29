@@ -1,3 +1,2 @@
-#!/bin/bash 
-find . -maxdepth 1 -type d \( -name "." -o -name ".." -o -regex "./[0-9A-Za-z].*" \) -printf "%f/, " -o -regex "./[0-9A-Za-z].*" -printf "%f, " | sed 's/, $/\n/'
-
+#!/bin/bash
+ls -map
