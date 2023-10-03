@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name "*.gif" -exec sh -c 'for file; do echo "${file##*/}" | sed "s/\.gif$//I"; done' sh {} + | LC_COLLATE=C sort -f
