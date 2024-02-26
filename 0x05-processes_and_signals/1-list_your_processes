@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# prints processes
+# prints processes PID
 
-ps -a -x -u -f
+ps aux --forest
