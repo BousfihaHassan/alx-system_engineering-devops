@@ -47,5 +47,5 @@ frontend hassan7839-frontend-https
 
 backend hassan7839-backend
         balance roundrobin
-        server 531346-web-01 54.160.118.45 check
-        server 531346-web-02 54.237.19.34 check
+        server 531346-web-01 54.160.118.45:80 check
+        server 531346-web-02 54.237.19.34:80 check
